@@ -434,7 +434,7 @@ table {
 }
 
 .main-header {
-  background: url(/assets/img/bg2.png) center/cover no-repeat;
+  background: url(assets/img/bg2.png) center/cover no-repeat;
 }
 
 .main-header__content {
@@ -670,7 +670,7 @@ table {
 }
 
 .apartments {
-  background: url(/assets/img/bg3.png) center/cover no-repeat;
+  background: url(assets/img/bg3.png) center/cover no-repeat;
 }
 
 .apartments__content {
@@ -733,7 +733,7 @@ table {
 }
 
 .view {
-  background: url(/assets/img/bg4.png) center/cover no-repeat;
+  background: url(assets/img/bg4.png) center/cover no-repeat;
 }
 
 .view__content {
@@ -754,7 +754,7 @@ table {
 }
 
 .reviews {
-  background: url(/assets/img/bg5.png) center/cover no-repeat;
+  background: url(assets/img/bg5.png) center/cover no-repeat;
   color: #fff;
 }
 
@@ -1065,7 +1065,7 @@ body {
 
 .header {
   width: 100%;
-  background: url(/assets/img/bg1.png) center/cover no-repeat;
+  background: url(assets/img/bg1.png) center/cover no-repeat;
   position: relative;
 }
 
@@ -1148,7 +1148,7 @@ body {
   padding-right: 15px;
   border: 2px solid #fff;
   outline: none;
-  background: url(/assets/img/search.png) no-repeat #5474fd;
+  background: url(assets/img/search.png) no-repeat #5474fd;
   background-position-x: 111px;
   background-position-y: 19px;
   cursor: pointer;
