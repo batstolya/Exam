@@ -415,6 +415,11 @@ table {
   position: relative;
 }
 
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .nav__logo {
   font-size: 24px;
   font-family: 'Josefin Sans', sans-serif;
