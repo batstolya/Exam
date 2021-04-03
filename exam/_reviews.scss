@@ -1,0 +1,72 @@
+.reviews {
+  background: url(/assets/img/bg5.png) center / cover no-repeat;
+  color: #fff;
+
+  &__title {
+    font-size: 36px;
+    font-family: "Aleo";
+    text-align: center;
+    padding-bottom: 100px;
+    @media (max-width: 923px) {
+      padding-bottom: 30px;
+    }
+  }
+}
+
+.reviews__content {
+  padding: 120px 0 200px 0;
+  @media (max-width: 923px) {
+    padding-bottom: 60px;
+  }
+
+  @media (max-width: 560px) {
+    padding-top: 60px;
+  }
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  @media (max-width: 923px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__picture img {
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+  }
+
+  &-text {
+    max-width: 588px;
+    // max-width: 551px;
+    width: 100%;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    padding-right: 20px;
+    padding-left: 10px;
+
+    font-family: "Josefin Sans", sans-serif;
+
+    &__title {
+      text-transform: uppercase;
+      font-size: 20px;
+      padding-bottom: 40px;
+    }
+    &__subtitle {
+      position: relative;
+      font-size: 16px;
+      letter-spacing: -1px;
+      line-height: 1.7;
+      .fa-quote-left {
+        color: #5474fd;
+        position: absolute;
+        top: -12px;
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,29 @@
+
+
+.nav{
+    background-color: #5474fd;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 28px 0 34px 0;
+        text-transform: uppercase;
+        position: relative;
+    } 
+    li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    &__logo {
+        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: #fff;
+        @media (max-width: 860px) {
+            padding-left: 20px;
+        }
+    }
+
+}
+

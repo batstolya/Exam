@@ -1,0 +1,62 @@
+.footer {
+  background-color: #232323;
+
+  &__content {
+    max-width: 175px;
+    width: 100%;
+    padding: 47px 0 53px 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+  }
+  &__logo {
+    font-size: 24px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+  }
+  &__subtitle {
+      padding-top: 15px;
+      padding-bottom: 30px;
+
+  }
+ 
+
+  &__icon {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 0 10px ;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+   
+    .fa-youtube:hover {
+      color: #FF0000;
+      transform:scale(2);
+      transition: all 0.4s  ;
+    }
+    .fa-linkedin-in:hover  {
+      color: #5474fd;
+      transform:scale(2);
+      transition: all 0.4s  ;
+    }
+    .fa-twitter:hover  {
+      color: #1da1f2;
+      transform:scale(2);
+      transition: all 0.4s  ;
+    }
+    .fa-facebook-f:hover  {
+      color: #4267b2;
+      transform:scale(2);
+      transition: all 0.4s  ;
+    }
+    .fa-pinterest:hover  {
+      color: #e60023;
+      transform:scale(2);
+      transition: all 0.4s  ;
+    }
+  }
+}
