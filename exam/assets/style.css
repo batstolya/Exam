@@ -434,7 +434,7 @@ table {
 }
 
 .main-header {
-  background: url(assets/img/bg2.png) center/cover no-repeat;
+  background: url(img/bg2.png) center/cover no-repeat;
 }
 
 .main-header__content {
@@ -508,18 +508,33 @@ table {
 
 .main-header__content .main-text__button {
   display: block;
+  background: #203eb3;
+  background: linear-gradient(45deg, #486bfe 0%, #486bfe 17%, #5373fd 17%, #5373fd 50%, #5373fd 67%, #486bfe 67%, #486bfe 100%) left/200%;
+  -webkit-transition: background-position 0.5s ease-in-out;
+  transition: background-position 0.5s ease-in-out;
   max-width: 225px;
   width: 100%;
   height: 60px;
-  max-height: 100%;
-  text-transform: uppercase;
-  color: #fff;
-  font-family: "Aleo";
-  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
-  text-align: center;
-  background: linear-gradient(57deg, #496bfe 40%, #5474fd 33%);
-  line-height: 3.7;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.65em;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Aleo";
+}
+
+.main-header__content .main-text__button:hover, .main-header__content .main-text__button:focus {
+  background-position: right;
 }
 
 @media (max-width: 729px) {
@@ -670,7 +685,7 @@ table {
 }
 
 .apartments {
-  background: url(assets/img/bg3.png) center/cover no-repeat;
+  background: url(img/bg3.png) center/cover no-repeat;
 }
 
 .apartments__content {
@@ -715,25 +730,38 @@ table {
 }
 
 .information-card__button {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: block;
+  background: #203eb3;
+  background: linear-gradient(45deg, #486bfe 0%, #486bfe 17%, #5373fd 17%, #5373fd 50%, #5373fd 67%, #486bfe 67%, #486bfe 100%) left/200%;
+  -webkit-transition: background-position 0.5s ease-in-out;
+  transition: background-position 0.5s ease-in-out;
   max-width: 225px;
   width: 100%;
   height: 60px;
-  max-height: 100%;
-  text-transform: uppercase;
-  color: #fff;
-  font-family: "Aleo";
-  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
-  text-align: center;
-  background: linear-gradient(57deg, #496bfe 40%, #5474fd 33%);
-  line-height: 3.7;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.65em;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Aleo";
+}
+
+.information-card__button:hover, .information-card__button:focus {
+  background-position: right;
 }
 
 .view {
-  background: url(assets/img/bg4.png) center/cover no-repeat;
+  background: url(img/bg4.png) center/cover no-repeat;
 }
 
 .view__content {
@@ -754,7 +782,7 @@ table {
 }
 
 .reviews {
-  background: url(assets/img/bg5.png) center/cover no-repeat;
+  background: url(img/bg5.png) center/cover no-repeat;
   color: #fff;
 }
 
@@ -1043,6 +1071,36 @@ table {
   text-align: center;
 }
 
+.btn-link {
+  display: block;
+  background: #486bfe;
+  background: linear-gradient(45deg, #486bfe 0%, #486bfe 17%, #5373fd 17%, #5373fd 50%, #5373fd 67%, #486bfe 67%, #486bfe 100%) left/200%;
+  -webkit-transition: background-position 0.5s ease-in-out;
+  transition: background-position 0.5s ease-in-out;
+  width: 225px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.65em;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Aleo";
+}
+
+.btn-link:hover, .btn-link:focus {
+  background-position: right;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1065,7 +1123,7 @@ body {
 
 .header {
   width: 100%;
-  background: url(assets/img/bg1.png) center/cover no-repeat;
+  background: url(img/bg1.png) center/cover no-repeat;
   position: relative;
 }
 
@@ -1148,7 +1206,7 @@ body {
   padding-right: 15px;
   border: 2px solid #fff;
   outline: none;
-  background: url(assets/img/search.png) no-repeat #5474fd;
+  background: url(img/search.png) no-repeat #5474fd;
   background-position-x: 111px;
   background-position-y: 19px;
   cursor: pointer;
